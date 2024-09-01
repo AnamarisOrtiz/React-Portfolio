@@ -1,0 +1,11 @@
+.nav-list {
+    display: flex;
+    flex-direction: row;
+}
+.nav-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 12px;
+    padding: 10px;
+}

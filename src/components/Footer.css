@@ -1,0 +1,15 @@
+* {
+    margin: auto;
+    padding: 0 auto;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 10%;
+    right: 40%;
+}
+
+.footer-content {
+    justify-content: space-between;
+}

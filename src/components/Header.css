@@ -1,0 +1,15 @@
+* {
+    margin: 0, auto;
+    padding: 0 auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10%;
+}
+
+.name {
+    font-size: 40px;
+}
+
