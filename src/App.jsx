@@ -9,10 +9,8 @@ import Resume from './components/pages/Resume';
 
 
 function App() {
-  // State to manage the current active section for highlighting in Navigation
+  
   const [currentSection, setCurrentSection] = useState('Home');
-
-  // Function to handle section change when a navigation link is clicked
   const handleSectionChange = (section) => {
     setCurrentSection(section);
   };
