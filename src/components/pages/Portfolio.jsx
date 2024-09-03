@@ -22,18 +22,36 @@ function Portfolio() {
 
   const projects = [
     {
-      title: 'Project One',
-      imageUrl: '/path/to/project-one-image.jpg',
+      title: 'BraviSSimo',
+      imageUrl: 'Screenshot 2024-09-02 at 8.22.43 PM.png',
       projectUrl: 'https://example.com/project-one',
-      repoUrl: 'https://github.com/your-repo/project-one',
+      repoUrl: 'https://github.com/amritank/bravissimo',
     },
     {
-      title: 'Project Two',
-      imageUrl: '/path/to/project-two-image.jpg',
-      projectUrl: 'https://example.com/project-two',
-      repoUrl: 'https://github.com/your-repo/project-two',
+      title: 'PWA',
+      imageUrl: 'JATE-psa.gif',
+      projectUrl: 'https://jate-text-editor-rmqh.onrender.com',
+      repoUrl: 'https://github.com/AnamarisOrtiz/JATE-Text-Editor',
     },
-    // Add more projects as needed
+    {
+      title: 'Kanban Board',
+      imageUrl: 'api-task-board.gif',
+      projectUrl: 'https://anamarisortiz.github.io/API-Task-Board/',
+      repoUrl: 'https://github.com/AnamarisOrtiz/API-Task-Board',
+    },
+    {
+      title: 'Blog Board',
+      imageUrl: 'bloggg.gif',
+      projectUrl: 'https://anamarisortiz.github.io/DOM-Personal-Blog/',
+      repoUrl: 'https://github.com/AnamarisOrtiz/DOM-Personal-Blog?tab=readme-ov-file',
+    },
+    {
+      title: 'Weather Dashboard',
+      imageUrl: 'weather-dash2.gif',
+      projectUrl: 'https://anamarisortiz.github.io/Weather-Dashboard/',
+      repoUrl: 'https://github.com/AnamarisOrtiz/Weather-Dashboard',
+    },
+   
   ];
 
   return (
