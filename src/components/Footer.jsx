@@ -1,21 +1,25 @@
 import React from 'react';
+import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'; // Importing icons from React Icons
 import './Footer.css';
 
 function Footer() {
   return (
     <footer className="footer">
       <div className="footer-content">
-        {/* Social Media Links */}
-        <a href="https://github.com/your-github-profile" target="_blank" rel="noopener noreferrer">
-          GitHub
+        
+        <a href="https://github.com/AnamarisOrtiz" target="_blank" rel="noopener noreferrer">
+          <FaGithub size={30} style={{ marginRight: '10px' }} /> 
         </a>
-        <a href="https://linkedin.com/in/your-linkedin-profile" target="_blank" rel="noopener noreferrer">
-          LinkedIn
+
+       
+        <a href="https://www.linkedin.com/in/anamaris-ortiz-85203a300/" target="_blank" rel="noopener noreferrer">
+          <FaLinkedin size={30} style={{ marginRight: '10px' }} /> 
         </a>
-        <a href="https://stackoverflow.com/users/your-stackoverflow-profile" target="_blank" rel="noopener noreferrer">
-          Stack Overflow
+
+       
+        <a href="https://x.com/AnamarisOrtiz" target="_blank" rel="noopener noreferrer">
+          <FaTwitter size={30} style={{ marginRight: '10px' }} /> 
         </a>
-        {/* Optional: Add additional links or information */}
       </div>
     </footer>
   );

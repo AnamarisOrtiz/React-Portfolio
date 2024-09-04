@@ -40,7 +40,7 @@ function Contact() {
     submitButton: {
       padding: '10px 20px',
       fontSize: '1rem',
-      backgroundColor: '#007bff',
+      backgroundColor: '#596c80',
       color: '#fff',
       border: 'none',
       borderRadius: '4px',
@@ -74,7 +74,38 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission logic here
+
+    // Initialize error messages object
+    let errorMessages = {};
+
+    // Validate each field
+    if (!formData.name) {
+      errorMessages.name = 'Name is required';
+    }
+
+    if (!formData.email) {
+      errorMessages.email = 'Email is required';
+    } else if (!validateEmail(formData.email)) {
+      errorMessages.email = 'Please enter a valid email address';
+    }
+
+    if (!formData.message) {
+      errorMessages.message = 'Message is required';
+    }
+
+    // If there are errors, prevent submission
+    if (Object.keys(errorMessages).length > 0) {
+      setErrors(errorMessages);
+      return;
+    }
+
+    // If validation passes, handle form submission (e.g., send data to a server)
+    alert('Form submitted successfully!');
+    console.log('Form Data:', formData);
+
+    // Clear form data and errors after submission
+    setFormData({ name: '', email: '', message: '' });
+    setErrors({});
   };
 
   return (

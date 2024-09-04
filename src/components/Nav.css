@@ -1,11 +1,22 @@
 .nav-list {
     display: flex;
     flex-direction: row;
+    position: absolute;  
+    top: 6%;
+    right: 0; 
+    padding: 20px; 
+    list-style-type: none;   
 }
+
 .nav-item {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 12px;
+    margin: 12px; 
     padding: 10px;
+
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 30px;
+    color: grey;
+    font-family: 'Roboto', sans-serif;
 }

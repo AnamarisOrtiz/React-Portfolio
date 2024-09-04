@@ -6,7 +6,7 @@ import Home from './components/pages/Home';
 import Portfolio from './components/pages/Portfolio';
 import Contact from './components/pages/Contact';
 import Resume from './components/pages/Resume';
-
+import './App.css'
 
 function App() {
   
@@ -18,10 +18,10 @@ function App() {
   return (
     <Router>
       <div className="app">
-        {/* Header with Navigation */}
+       
         <Header currentSection={currentSection} onSectionChange={handleSectionChange} />
 
-        {/* Main Content Area */}
+      
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
@@ -31,7 +31,7 @@ function App() {
           </Routes>
         </main>
 
-        {/* Footer Component */}
+        
         <Footer />
       </div>
     </Router>

@@ -11,7 +11,7 @@ function Portfolio() {
       display: 'flex',
       flexWrap: 'wrap',
       justifyContent: 'center',
-      gap: '20px',
+      gap: '100px',
       marginTop: '20px',
     },
     heading: {
@@ -26,12 +26,6 @@ function Portfolio() {
       imageUrl: 'Screenshot 2024-09-02 at 8.22.43 PM.png',
       projectUrl: 'https://example.com/project-one',
       repoUrl: 'https://github.com/amritank/bravissimo',
-    },
-    {
-      title: 'PWA',
-      imageUrl: 'JATE-psa.gif',
-      projectUrl: 'https://jate-text-editor-rmqh.onrender.com',
-      repoUrl: 'https://github.com/AnamarisOrtiz/JATE-Text-Editor',
     },
     {
       title: 'Kanban Board',
@@ -50,6 +44,17 @@ function Portfolio() {
       imageUrl: 'weather-dash2.gif',
       projectUrl: 'https://anamarisortiz.github.io/Weather-Dashboard/',
       repoUrl: 'https://github.com/AnamarisOrtiz/Weather-Dashboard',
+    },
+    {
+      title: 'Jate Editor',
+      imageUrl: 'JATE-psa.gif',
+      projectUrl: 'https://jate-text-editor-rmqh.onrender.com',
+      repoUrl: 'https://github.com/AnamarisOrtiz/JATE-Text-Editor?tab=readme-ov-file',
+    },
+    {
+      title: 'ORM E Commerce',
+      imageUrl: 'orm-ecommerce-gi.gif',
+      repoUrl: 'https://github.com/AnamarisOrtiz/ORM-E-Commerce/tree/main',
     },
    
   ];

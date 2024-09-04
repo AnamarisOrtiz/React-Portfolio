@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 function Home() {
   const styles = {
     home: {
@@ -7,31 +8,31 @@ function Home() {
       flexDirection: 'column',
       alignItems: 'center',
       padding: '20px',
+      backgroundColor: '#f0e9e3',
     },
     developerPhoto: {
-      width: '150px',
-      height: '150px',
+      width: '250px',
+      height: '250px',
       borderRadius: '50%',
       marginBottom: '20px',
     },
     aboutText: {
-      maxWidth: '600px',
+      maxWidth: '800px',
       textAlign: 'center',
       fontSize: '1.2rem',
       color: '#333',
+      lineHeight: '1.6',
     },
   };
-
+  
   return (
     <section style={styles.home}>
-      <img src="/path/to/photo.jpg" alt="Developer" style={styles.developerPhoto} />
+      <img src="Screenshot 2024-09-03 at 7.03.31 PM.png" alt="Developer" style={styles.developerPhoto} />
       <h2>About Me</h2>
       <p style={styles.aboutText}>
-      Hello! I'm Anamaris Ortiz, a passionate web developer with a knack for creating dynamic, responsive, and user-friendly websites and applications. I recently graduated from the UC Berkeley Full Stack Web Development Bootcamp, where I honed my skills in HTML, CSS, JavaScript, React, Node.js, and more. I am driven by a love for learning and a desire to solve complex problems through innovative coding solutions.
+      Hi there! I'm Anamaris Ortiz, a web developer with a passion for building sleek, responsive websites and applications. I recently graduated from the UC Berkeley Full Stack Web Development Bootcamp, where I got hands-on with HTML, CSS, JavaScript, React, Node.js, and more. I love diving into new challenges and finding creative solutions to coding problems.
 
-Throughout my bootcamp experience, I worked on various projects that challenged me to think critically and creatively. I thrive in collaborative environments and enjoy working with teams to build engaging digital experiences. I am excited to bring my skills and enthusiasm to new opportunities in the tech world and continue growing as a developer.
-
-When I'm not coding, you can find me exploring new technologies, experimenting with design, or diving into a good book. I'm always eager to connect and learn from others in the tech community, so feel free to reach out!
+I enjoy working with teams to create digital experiences that are both engaging and user-friendly. When I’m not coding, I’m probably exploring new tech trends, tinkering with design ideas, or enjoying a good book. I'm always up for connecting with fellow tech enthusiasts, so feel free to reach out!
       </p>
     </section>
   );

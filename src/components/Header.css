@@ -1,15 +1,19 @@
-* {
-    margin: 0, auto;
-    padding: 0 auto;
-}
 
 .header {
     display: flex;
     flex-direction: row;
-    margin-bottom: 10%;
+    background-image: url('backpic.jpeg'); 
+    background-size: cover; 
+    background-position: center;
+    padding: 20px; 
+    background-clip: padding-box;
+    
 }
 
 .name {
-    font-size: 40px;
+    font-size: 70px;
+    color: grey;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
 }
 

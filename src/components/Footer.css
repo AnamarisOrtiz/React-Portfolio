@@ -1,15 +1,29 @@
-* {
-    margin: auto;
-    padding: 0 auto;
-}
 .footer {
     display: flex;
-    flex-direction: row;
-    position: absolute;
-    bottom: 10%;
-    right: 40%;
-}
-
-.footer-content {
-    justify-content: space-between;
-}
+    justify-content: center;
+    align-items: center; 
+    position: relative; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    height: 60px; 
+    background-color: #e4d4c5; 
+    text-align: center; 
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+  }
+  
+  .footer-content a {
+    padding: 8px; 
+    color: gray; 
+    transition: color 0.3s; 
+  }
+  
+  .footer-content a:hover {
+    color: #555; 
+  }
+  

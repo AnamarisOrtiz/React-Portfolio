@@ -1,0 +1,50 @@
+
+body {
+    background-color: #f0e9e3; 
+    color: #50535F; 
+    font-family: 'Montserrat', sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    line-height: 1.6; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #6C6F7D; 
+  }
+  
+  .button-primary {
+    background-color: #6C6F7D; 
+    color: #E6E6FA; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-primary:hover {
+    background-color: #50535F; 
+  }
+  
+  .card {
+    background-color: #CCC9E7;
+    color: #50535F; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+ 
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; 
+}

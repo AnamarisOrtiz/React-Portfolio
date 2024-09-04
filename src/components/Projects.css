@@ -9,7 +9,7 @@
     transition: transform 0.3s ease;
     margin-top: 40px;
     margin-bottom: 4px;
-    width: 300px;
+    width: 28%;
     text-align: center;
 
 }
@@ -25,22 +25,23 @@
   
   .project-title {
     font-size: 1.5rem;
-    margin: 10px 0;
+    margin: 10px 10px;
+    color: #596c80;
   }
   
   .project-links {
     margin-top: 10px;
+    text-decoration: none;
   }
   
   .project-link {
     display: inline-block;
-    margin: 5px 10px;
+    margin: 8px 10px;
     text-decoration: none;
-    color: #007bff;
+    color: #596c80;
     font-weight: bold;
     transition: color 0.3s ease;
+   
   }
   
-  .project-link:hover {
-    color: #0056b3;
-  }
+  
