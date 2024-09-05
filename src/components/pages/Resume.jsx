@@ -30,7 +30,7 @@ function Resume() {
   return (
     <section style={styles.resume}>
       <h2>Resume</h2>
-      <a href="/path/to/resume.pdf" download style={styles.downloadLink}>
+      <a href="resumeimg.png" download style={styles.downloadLink}>
         Download Resume
       </a>
       <h3>Proficiencies</h3>
@@ -39,9 +39,9 @@ function Resume() {
       <div style={styles.proficiencyCategory}>Front-End Technologies:</div>
       <ul style={styles.proficiencyList}>
         <li style={styles.proficiencyItem}>HTML/CSS</li>
-        <li style={styles.proficiencyItem}>JavaScript (ES6+)</li>
-        <li style={styles.proficiencyItem}>React (Hooks, Context API)</li>
-        <li style={styles.proficiencyItem}>Responsive Design (Flexbox, Grid)</li>
+        <li style={styles.proficiencyItem}>JavaScript</li>
+        <li style={styles.proficiencyItem}>React </li>
+        <li style={styles.proficiencyItem}>Responsive Design</li>
       </ul>
       
       

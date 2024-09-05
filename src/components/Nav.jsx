@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './Nav.css';
 
 function Navigation({ currentSection, onSectionChange }) {
+  
   return (
     <nav className="navigation">
       <ul className="nav-list">

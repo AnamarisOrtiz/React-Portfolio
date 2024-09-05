@@ -24,7 +24,6 @@ function Portfolio() {
     {
       title: 'BraviSSimo',
       imageUrl: 'Screenshot 2024-09-02 at 8.22.43 PM.png',
-      projectUrl: 'https://example.com/project-one',
       repoUrl: 'https://github.com/amritank/bravissimo',
     },
     {
