@@ -40,7 +40,7 @@ function Portfolio() {
     },
     {
       title: 'Weather Dashboard',
-      imageUrl: 'weather-dash2.gif',
+      imageUrl: 'src/images/weather-dash2.gif',
       projectUrl: 'https://anamarisortiz.github.io/Weather-Dashboard/',
       repoUrl: 'https://github.com/AnamarisOrtiz/Weather-Dashboard',
     },
