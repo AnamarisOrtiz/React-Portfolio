@@ -30,13 +30,16 @@ To run this project locally:
    git clone https://github.com/your-username/React-Portfolio.git
 
 2. Navigate to the project directory 
-    ``` cd React-Portfolio
+    ```bash
+    cd React-Portfolio
 
 3. Install dependecies
-    ``` npm install 
+    ```bash
+    npm install 
 
 4.  Start dev server
-    ``` npm run dev
+    ```bash
+    npm run dev
 
 ## License
 
