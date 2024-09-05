@@ -30,7 +30,7 @@ function Resume() {
   return (
     <section style={styles.resume}>
       <h2>Resume</h2>
-      <a href="resumeimg.png" download style={styles.downloadLink}>
+      <a href="src/images/resumeimg.png" download style={styles.downloadLink}>
         Download Resume
       </a>
       <h3>Proficiencies</h3>

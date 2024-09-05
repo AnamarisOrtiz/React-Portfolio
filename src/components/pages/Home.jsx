@@ -27,7 +27,7 @@ function Home() {
   
   return (
     <section style={styles.home}>
-      <img src="Screenshot 2024-09-03 at 7.03.31 PM.png" alt="Developer" style={styles.developerPhoto} />
+      <img src="src/images/profilepic.png" alt="Developer" style={styles.developerPhoto} />
       <h2>About Me</h2>
       <p style={styles.aboutText}>
       Hi there! I'm Anamaris Ortiz, a web developer with a passion for building sleek, responsive websites and applications. I recently graduated from the UC Berkeley Full Stack Web Development Bootcamp, where I got hands-on with HTML, CSS, JavaScript, React, Node.js, and more. I love diving into new challenges and finding creative solutions to coding problems.

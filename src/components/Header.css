@@ -2,7 +2,7 @@
 .header {
     display: flex;
     flex-direction: row;
-    background-image: url('backpic.jpeg'); 
+    background-image: url('src/images/backpic.jpeg'); 
     background-size: cover; 
     background-position: center;
     padding: 20px; 

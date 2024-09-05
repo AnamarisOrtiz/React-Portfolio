@@ -23,18 +23,18 @@ function Portfolio() {
   const projects = [
     {
       title: 'BraviSSimo',
-      imageUrl: 'Screenshot 2024-09-02 at 8.22.43 PM.png',
+      imageUrl: 'src/images/bravissimo.png',
       repoUrl: 'https://github.com/amritank/bravissimo',
     },
     {
       title: 'Kanban Board',
-      imageUrl: 'api-task-board.gif',
+      imageUrl: 'src/images/api-task-board.gif',
       projectUrl: 'https://anamarisortiz.github.io/API-Task-Board/',
       repoUrl: 'https://github.com/AnamarisOrtiz/API-Task-Board',
     },
     {
       title: 'Blog Board',
-      imageUrl: 'bloggg.gif',
+      imageUrl: 'src/images/bloggg.gif',
       projectUrl: 'https://anamarisortiz.github.io/DOM-Personal-Blog/',
       repoUrl: 'https://github.com/AnamarisOrtiz/DOM-Personal-Blog?tab=readme-ov-file',
     },
@@ -46,13 +46,13 @@ function Portfolio() {
     },
     {
       title: 'Jate Editor',
-      imageUrl: 'JATE-psa.gif',
+      imageUrl: 'src/images/JATE-psa.gif',
       projectUrl: 'https://jate-text-editor-rmqh.onrender.com',
       repoUrl: 'https://github.com/AnamarisOrtiz/JATE-Text-Editor?tab=readme-ov-file',
     },
     {
       title: 'ORM E Commerce',
-      imageUrl: 'orm-ecommerce-gi.gif',
+      imageUrl: 'src/images/orm-ecommerce-gi.gif',
       repoUrl: 'https://github.com/AnamarisOrtiz/ORM-E-Commerce/tree/main',
     },
    
